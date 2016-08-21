@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9643f60-d3e6-4dc7-b71b-bf01a64dd897" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="RTfMRI-neurofeedback.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,7 +22,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NFB_get_button_presses.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NFB_get_button_presses.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NFB_get_button_presses.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="537">
@@ -30,6 +30,26 @@
               <folding>
                 <element signature="e#30#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pdigm_tachometer_dmn_v2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pdigm_tachometer_dmn_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="82" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DMN_TRACKING_fb_normal_focus_v2.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DMN_TRACKING_fb_normal_focus_v2.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2670">
+              <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="114" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,8 +67,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="89" />
-    <option name="y" value="45" />
+    <option name="x" value="241" />
+    <option name="y" value="23" />
     <option name="width" value="1015" />
     <option name="height" value="784" />
   </component>
@@ -231,7 +251,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="89" y="45" width="1015" height="784" extended-state="0" />
+    <frame x="241" y="23" width="1015" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -276,6 +296,22 @@
           <folding>
             <element signature="e#30#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DMN_TRACKING_fb_normal_focus_v2.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2670">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="114" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdigm_tachometer_dmn_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="82" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
