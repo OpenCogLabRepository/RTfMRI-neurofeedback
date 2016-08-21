@@ -20,6 +20,14 @@ The Neurofeedback task stimulus is implemented in Python using the [VisionEGG](h
 
 The task has two modes, "feedback" and "no feedback". During feedback the needle moves to the left and right to indicate the current level of activity. In no-feedback the needle does not move, it remains in zero position for the entire task. The activity displayed on the meter is received as a string over a TCP/IP connection. Once received the data is converted into a floating point number and optionally linearly detrended using all previously collected values. The value is converted to an angular change using 3° per .5 of signal. The angular change is then added to the needle position moving it to the left or right. In this way, the needle position represents a windowed average of activity. This is down to smooth and stabilize the needle's movements. Although this data can be received from a variety of sources, the task was designed and has been tested to work with the [AFNI's 3dsvm real-time plugin](http://lacontelab.org/3dsvm.htm).
 
+## Example fMRI Experiment
+
+A proof of concept experiment was conducted in 13 healthy controls to test their ability to modulate the Default Mode Network using the realt-time fMRI neurofeedback task (Craddock et al. 2012). The ability to modulate the network was evaluated by correlating the time course of DMN activation with a regressor describing the task instructions. Figure 2 provides example DMN spatial maps, time courses of activity, and the task regressor for the best performing (top) and worse performing (bottom) participants. The correlation between the best performing participant's DMN activity and task regressor, although there was considerable high frequency fluctuations. The worst participant had some very large motion spikes, which considerably degraded their behavior.
+
+![Fig. 2 Areas activated in the incongruent > congruent contrast.](CCD_best_worst.png?raw=true "Fig. 2 Areas activated in the incongruent > congruent contrast.")
+
+*Figure 2. Areas activated in the incongruent > congruent contrast. A. Results of group-level analysis, thresholded at p<0.001 TFCE FWE-corrected. B. Overlap of individual level results, each thresholded at p<0.05 uncorrected.*
+
 ## Usage Notes
 This task requires that the [VisionEGG](http://visionegg.org/) ecosystem be installed.
 
