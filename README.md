@@ -24,9 +24,9 @@ The task has two modes, "feedback" and "no feedback". During feedback the needle
 
 A proof of concept experiment was conducted in 13 healthy controls to test their ability to modulate the Default Mode Network using the realt-time fMRI neurofeedback task (Craddock et al. 2012). The ability to modulate the network was evaluated by correlating the time course of DMN activation with a regressor describing the task instructions. Figure 2 provides example DMN spatial maps, time courses of activity, and the task regressor for the best performing (top) and worse performing (bottom) participants. The correlation between the best performing participant's DMN activity and task regressor, although there was considerable high frequency fluctuations. The worst participant had some very large motion spikes, which considerably degraded their behavior.
 
-![Fig. 2 Areas activated in the incongruent > congruent contrast.](CCD_best_worst.png?raw=true "Fig. 2 Areas activated in the incongruent > congruent contrast.")
+![Fig. 2 Example of task results for best and worst participants from an initial experiment with the real-time fMRI Neurofeedback paradigm.](CCD_best_worst.png?raw=true "Example of task results for best and worst participants from an initial experiment with the real-time fMRI Neurofeedback paradigm.")
 
-*Figure 2. Areas activated in the incongruent > congruent contrast. A. Results of group-level analysis, thresholded at p<0.001 TFCE FWE-corrected. B. Overlap of individual level results, each thresholded at p<0.05 uncorrected.*
+*Figure 2. Example of task results for best and worst participants from an initial experiment with the real-time fMRI Neurofeedback paradigm. Spatial maps of the DMN that was extracted from each participant. The correlation between DMN activity and task regressor is obvious in the best participant, but not in the worst.*
 
 ## Usage Notes
 This task requires that the [VisionEGG](http://visionegg.org/) ecosystem be installed.
