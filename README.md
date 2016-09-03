@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/9342/OpenCogLabRepository/RTfMRI-neurofeedback.svg)](https://zenodo.org/badge/latestdoi/9342/OpenCogLabRepository/RTfMRI-neurofeedback)
+
 # Real-time fMRI Neurofeedback Task Stimulus
 
 R. Cameron Craddock<sup>1,2,†</sup>, Jonathan Lisinski<sup>3</sup>, Stephen M. LaConte<sup>3,4,5</sup>
@@ -7,10 +9,6 @@ R. Cameron Craddock<sup>1,2,†</sup>, Jonathan Lisinski<sup>3</sup>, Stephen M.
 <sup>†</sup>Contact [ccraddock@nki.rfmh.org](mailto:ccraddock@nki.rfmh.org) with any comments or questions.
 
 This stimuli was developed for conducting real-time fMRI based default mode network neurofeedback experiments (Craddock et al. 2012, LaConte et al. 2011).
-
-Craddock, R.C., Lisinski, J.M., Chiu, P., Mayberg, H.S., LaConte, S.M., (**2012**). Real-Time Tracking and Biofeedback of the Default Mode Network., *Proceedings of the Organization of Human Brain Mapping 18th Annual Meeting*, Beijing, China.
-
-LaConte, S. M. (**2011**). Decoding fMRI brain states in real-time. *NeuroImage*, 56(2), 440–454. [doi:10.1016/j.neuroimage.2010.06.052](http://dx.doi.org/10.1016/j.neuroimage.2010.06.052)
 
 The Neurofeedback task stimulus is implemented in Python using the [VisionEGG](http://visionegg.org/) library. The script displays the current level of activity of a brain area or network using an analog meter (see Fig. 1). On the meter, zero is straight up and down, and negative and positive values are on either side. The left and right side of the scale are labeled with strings that describe a behavior that is associated with the level of activity. For example, in the default mode network (DMN) example, low activity is referred to as "Focused" and high activity is "Wandering". The current task instruction is centered beneath the meter in a large font.
 
@@ -67,3 +65,9 @@ Responses and response times can be extracted from the output log files using th
 
 ## Acknowledgements
 This task is a modification of a analog meter feedback paradigm implemented in VisionEGG by J. Lisinski and S. LaConte. Support for the DMN application of this task was provided by a NARSAD Young Investigator Award and NIMH BRAINS R01MH101555 to RCC.
+
+## References 
+
+Craddock, R.C., Lisinski, J.M., Chiu, P., Mayberg, H.S., LaConte, S.M., (**2012**). Real-Time Tracking and Biofeedback of the Default Mode Network., *Proceedings of the Organization of Human Brain Mapping 18th Annual Meeting*, Beijing, China.
+
+LaConte, S. M. (**2011**). Decoding fMRI brain states in real-time. *NeuroImage*, 56(2), 440–454. [doi:10.1016/j.neuroimage.2010.06.052](http://dx.doi.org/10.1016/j.neuroimage.2010.06.052)
